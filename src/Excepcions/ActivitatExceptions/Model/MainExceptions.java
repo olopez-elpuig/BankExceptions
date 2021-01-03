@@ -17,7 +17,7 @@ public class MainExceptions {
         cE2.ingressar(200);
         Client client = null;
         List<CompteEstalvi> comptes = new ArrayList<>(Arrays.asList(cE,cE2));
-        LlistaDeComptes.llistaDeComptes.addAll(comptes);
+        Comptes.llistaDeComptes.addAll(comptes);
 
 
         //DNI Exception
